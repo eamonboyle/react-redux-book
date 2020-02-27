@@ -5,8 +5,6 @@ import { createStore } from 'redux';
 import appReducer from './reducers';
 import { createUser, createPost } from './actions';
 
-import ConnectedPostList from './containers/ConnectedPostList';
-
 let store = createStore(appReducer);
 
 // create users
